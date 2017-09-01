@@ -33,4 +33,16 @@ public class HaitiPatientIdentifierTypes {
 		public String description() { return "Code referencing a patient's record in the SEDISH Master Person Index (Enterprise Client ID)"; }
 	};
 
+	public static PatientIdentifierTypeDescriptor NIF_ID = new PatientIdentifierTypeDescriptor() {
+		public String uuid() { return "e797f826-8e8f-11e7-bb31-be2e44b06b34"; }
+		public String name() { return "Numéro d'identité fiscale (NIF)"; }
+		public String description() { return "The Haiti Tax Identification Number (NIF) is issued by the Direction Générale des Impôts (DGI) since 1987.  Any Haitian natural or legal person gets this 10-digit number."; }
+	};
+
+	public static PatientIdentifierTypeDescriptor CIN_ID = new PatientIdentifierTypeDescriptor() {
+		public String uuid() { return "e797face-8e8f-11e7-bb31-be2e44b06b34"; }
+		public String name() { return "Carte d'identification nationale"; }
+		public String description() { return "The Haiti national identification card is meant to replace the fiscal identity card.  Created 2005."; }
+	};
+
 }
