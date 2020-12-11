@@ -1,5 +1,6 @@
 Haiti Core Module
 ==========================
+![CI](https://github.com/IsantePlus/openmrs-module-haiticore/workflows/CI/badge.svg)
 
 Description
 -----------
